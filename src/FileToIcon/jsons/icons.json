@@ -1,0 +1,2268 @@
+{
+    "access": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "adn",
+                    "accdb",
+                    "accdr",
+                    "accdt",
+                    "accda",
+                    "mdw",
+                    "accde",
+                    "mam",
+                    "maq",
+                    "mar",
+                    "mat",
+                    "maf",
+                    "laccdb"
+                ],
+                "name": "Binary (Microsoft Access)",
+                "scope": "binary.access"
+            }
+        ],
+        "color": "red"
+    },
+    "ada": {
+        "color": "red",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ada",
+                    "adb",
+                    "ads"
+                ],
+                "name": "Plain Text (Ada)",
+                "scope": "source.ada"
+            }
+        ]
+    },
+    "adonisjs": {
+        "color": "purple",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "edge",
+                    "edge.html",
+                    ".adonisrc.json"
+                ],
+                "name": "Plain Text (Edge)",
+                "scope": "text.html.edge"
+            }
+        ]
+    },
+    "ae": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "aep",
+                    "aet"
+                ],
+                "name": "Binary (Adobe After Effects)",
+                "scope": "binary.ae"
+            }
+        ],
+        "color": "purple"
+    },
+    "ai": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ai"
+                ],
+                "name": "Binary (Adobe Illustrator)",
+                "scope": "binary.ai"
+            }
+        ],
+        "color": "orange"
+    },
+    "angular": {
+        "color": "red",
+        "syntaxes": [
+            {
+                "base": "text.html.basic",
+                "extensions": [
+                    "ng.html",
+                    "component.html"
+                ],
+                "name": "HTML (Angular JS)",
+                "scope": "text.html.angularjs, text.html.basic.angularjs"
+            }
+        ]
+    },
+    "apache": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "conf",
+                    "CONF",
+                    "envvars",
+                    "htaccess",
+                    "HTACCESS",
+                    "htgroups",
+                    "HTGROUPS",
+                    "htpasswd",
+                    "HTPASSWD",
+                    ".htaccess",
+                    ".HTACCESS",
+                    ".htgroups",
+                    ".HTGROUPS",
+                    ".htpasswd",
+                    ".HTPASSWD"
+                ],
+                "name": "Plain Text (Apache Conf)",
+                "scope": "source.apacheconf"
+            }
+        ]
+    },
+    "archive": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "7z",
+                    "7zip",
+                    "gz",
+                    "pzip",
+                    "rar",
+                    "saz",
+                    "tar",
+                    "tgz",
+                    "wim",
+                    "zip"
+                ],
+                "name": "Binary (Archive)",
+                "scope": "binary.archive"
+            }
+        ],
+        "color": "graphite"
+    },
+    "arduino": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ino",
+                    "pde"
+                ],
+                "name": "Plain Text (Arduino)",
+                "scope": "source.arduino, source.c++.arduino"
+            }
+        ]
+    },
+    "astro": {
+        "color": "graphite",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "astro"
+                ],
+                "name": "Plain Text (Astro)",
+                "scope": "source.astro, text.html.astro"
+            }
+        ]
+    },
+    "audio": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "mp3",
+                    "m4p",
+                    "aac",
+                    "aiff",
+                    "au",
+                    "flac",
+                    "m4a",
+                    "mpc",
+                    "mp+",
+                    "mpp",
+                    "oga",
+                    "opus",
+                    "ra",
+                    "rm",
+                    "wav",
+                    "wma"
+                ],
+                "name": "Binary (Audio)",
+                "scope": "binary.audio"
+            }
+        ],
+        "color": "red"
+    },
+    "babel": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    ".babelrc"
+                ],
+                "name": "JSON (Babel)",
+                "scope": "source.json.babel"
+            }
+        ],
+        "color": "yellow"
+    },
+    "bazel": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "base": "source.python",
+                "extensions": [
+                    "BUILD",
+                    "WORKSPACE",
+                    "bazel",
+                    "bzl"
+                ],
+                "name": "Python (Bazel)",
+                "scope": "source.bazel"
+            }
+        ]
+    },
+    "binary": {
+        "color": "graphite",
+        "syntaxes": [
+            {
+                "extensions": []
+            }
+        ]
+    },
+    "blade": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "blade",
+                    "blade.php"
+                ],
+                "name": "Plain Text (Laravel Blade)",
+                "scope": "text.blade"
+            }
+        ]
+    },
+    "blender": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "blend",
+                    "blend1",
+                    "blend2",
+                    "blend3"
+                ],
+                "name": "Binary (Blender)",
+                "scope": "binary.blender"
+            }
+        ]
+    },
+    "bower": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    "bower.json",
+                    ".bowerrc"
+                ],
+                "name": "JSON (Bower)",
+                "scope": "source.json.bower"
+            }
+        ],
+        "color": "yellow"
+    },
+    "cabal": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "cabal",
+                    "cabal.project"
+                ],
+                "name": "Plain Text (Cabal)",
+                "scope": "source.cabal"
+            }
+        ]
+    },
+    "cf": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "cfc",
+                    "cfm",
+                    "cfml"
+                ],
+                "name": "Plain Text (ColdFusion)",
+                "scope": "source.cfscript.cfc, text.html.cfm, source.cfml.script, embedding.cfml"
+            }
+        ]
+    },
+    "circleci": {
+        "syntaxes": [
+            {
+                "base": "source.yaml",
+                "extensions": [
+                    "circle.yml"
+                ],
+                "name": "YAML (CircleCI)",
+                "scope": "source.yaml.circleci"
+            }
+        ],
+        "color": "graphite"
+    },
+    "cmake": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "CMakeLists.txt",
+                    "cmake"
+                ],
+                "name": "Plain Text (CMake)",
+                "scope": "source.cmake, source.cmakeeditor"
+            }
+        ]
+    },
+    "cobol": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ccp",
+                    "scbl",
+                    "cbl",
+                    "cpy",
+                    "cob",
+                    "dds",
+                    "wks",
+                    "pco"
+                ],
+                "name": "Plain Text (Cobol)",
+                "scope": "source.cobol"
+            }
+        ]
+    },
+    "coffeescript": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "coffee",
+                    "Cakefile",
+                    "coffee.erb",
+                    "cson",
+                    "cjsx"
+                ],
+                "name": "Plain Text (CoffeeScript)",
+                "scope": "source.coffee"
+            }
+        ]
+    },
+    "composer": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    "composer.json",
+                    "composer.lock"
+                ],
+                "name": "JSON (Composer)",
+                "scope": "source.json.composer"
+            }
+        ],
+        "color": "orange"
+    },
+    "coreboot": {
+        "color": "sky",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "cb"
+                ],
+                "name": "Plain Text (Coreboot)",
+                "scope": "source.cb"
+            }
+        ]
+    },
+    "cottle": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "cottle"
+                ],
+                "name": "Plain Text (Cottle)",
+                "scope": "source.cottle"
+            }
+        ]
+    },
+    "cppheader": {
+        "syntaxes": [
+            {
+                "base": "source.c++",
+                "extensions": [
+                    "h",
+                    "h++",
+                    "hh",
+                    "hpp",
+                    "hxx"
+                ],
+                "name": "C++ (Header)",
+                "scope": "source.c++.header"
+            }
+        ],
+        "color": "sky"
+    },
+    "crystal": {
+        "color": "graphite",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "cr"
+                ],
+                "name": "Plain Text (Crystal)",
+                "scope": "source.crystal"
+            }
+        ]
+    },
+    "csv": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "csv"
+                ],
+                "name": "Plain Text (CSV)",
+                "scope": "text.csv, text.advanced_csv"
+            }
+        ],
+        "color": "green"
+    },
+    "cython": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "pyx",
+                    "pxi",
+                    "pxd"
+                ],
+                "name": "Plain Text (Cython)",
+                "scope": "source.cython"
+            }
+        ]
+    },
+    "cad": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "cad",
+                    "stl",
+                    "stp",
+                    "step",
+                    "wrl"
+                ],
+                "name": "Plain Text (CAD)",
+                "scope": "text.plain.cad"
+            }
+        ]
+    },
+    "caddy": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "Caddyfile"
+                ],
+                "name": "Plain Text (Caddyfile)",
+                "scope": "source.Caddyfile"
+            }
+        ]
+    },
+    "dart": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "dart"
+                ],
+                "name": "Plain Text (Dart)",
+                "scope": "source.dart"
+            }
+        ]
+    },
+    "default": {
+        "color": "graphite",
+        "syntaxes": [
+            {
+                "extensions": []
+            }
+        ]
+    },
+    "docker": {
+        "syntaxes": [
+            {
+                "base": "source.yaml",
+                "extensions": [
+                    "docker-compose.yml",
+                    ".dockerignore",
+                    "Dockerfile",
+                    "dockerfile"
+                ],
+                "name": "YAML (Docker)",
+                "scope": "source.yaml.docker"
+            }
+        ],
+        "color": "sky"
+    },
+    "editorconfig": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    ".editorconfig"
+                ],
+                "name": "Plain Text (EditorConfig)",
+                "scope": "source.ini.editorconfig"
+            }
+        ]
+    },
+    "ejs": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ejs"
+                ],
+                "name": "Plain Text (EJS)",
+                "scope": "text.ejs"
+            }
+        ]
+    },
+    "elm": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "elm"
+                ],
+                "name": "Plain Text (Elm)",
+                "scope": "source.elm"
+            }
+        ]
+    },
+    "ember": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "em",
+                    "em.erb",
+                    "ember",
+                    "ember.erb",
+                    "emberscript",
+                    "emberscript.erb"
+                ],
+                "name": "Plain Text (EmberScript)",
+                "scope": "source.ember"
+            }
+        ]
+    },
+    "eslint": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    ".eslintrc",
+                    ".eslintrc.json",
+                    ".eslintrc.js",
+                    ".eslintrc.yaml",
+                    ".eslintrc.yml",
+                    ".eslintignore",
+                    ".eslintcache"
+                ],
+                "name": "JSON (ESLint)",
+                "scope": "source.json.eslint"
+            }
+        ],
+        "color": "purple"
+    },
+    "ex": {
+        "color": "purple",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ex",
+                    "exs",
+                    "eex",
+                    "html.eex",
+                    "html.leex"
+                ],
+                "name": "Plain Text (Elixir)",
+                "scope": "text.elixir, text.html.elixir, source.elixir"
+            }
+        ]
+    },
+    "excel": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "xls",
+                    "xlsx",
+                    "xlsm",
+                    "xlsb",
+                    "xlt"
+                ],
+                "name": "Binary (Microsoft Excel)",
+                "scope": "binary.excel"
+            }
+        ],
+        "color": "green"
+    },
+    "fastq": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "fastq",
+                    "fq",
+                    "fasta",
+                    "fa",
+                    "gff",
+                    "gff3",
+                    "gtf"
+                ],
+                "name": "Plain Text (FastQ)",
+                "scope": "text.plain.fastq"
+            }
+        ],
+        "color": "sky"
+    },
+    "font": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "eot",
+                    "otf",
+                    "ttf",
+                    "woff",
+                    "woff2"
+                ],
+                "name": "Binary (Font)",
+                "scope": "binary.font"
+            }
+        ],
+        "color": "green"
+    },
+    "fortran": {
+        "color": "red",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "f",
+                    "F",
+                    "f03",
+                    "F03",
+                    "F08",
+                    "f08",
+                    "f77",
+                    "F77",
+                    "f90",
+                    "F90",
+                    "f95",
+                    "F95",
+                    "for",
+                    "FOR",
+                    "FPP",
+                    "fpp",
+                    "namelist"
+                ],
+                "name": "Plain Text (Fortran)",
+                "scope": "source.fortran"
+            }
+        ]
+    },
+    "fsharp": {
+        "color": "sky",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "fs",
+                    "fsi",
+                    "fsx"
+                ],
+                "name": "Plain Text (F#)",
+                "scope": "source.fsharp"
+            }
+        ]
+    },
+    "git": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "git-blame",
+                    ".gitblame",
+                    ".gitkeep"
+                ],
+                "name": "Git Blame",
+                "scope": "text.git.blame"
+            }
+        ],
+        "color": "orange"
+    },
+    "gradle": {
+        "syntaxes": [
+            {
+                "base": "source.groovy",
+                "extensions": [
+                    "gradle"
+                ],
+                "name": "Groovy (Gradle)",
+                "scope": "source.groovy.gradle"
+            }
+        ],
+        "color": "cyan"
+    },
+    "graphql": {
+        "color": "pink",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "graphql",
+                    "graphqls",
+                    "gql"
+                ],
+                "name": "Plain Text (GraphQL)",
+                "scope": "source.graphql"
+            }
+        ]
+    },
+    "gruntfile": {
+        "syntaxes": [
+            {
+                "base": "source.js",
+                "extensions": [
+                    "gruntfile.js"
+                ],
+                "name": "JavaScript (Gruntfile)",
+                "scope": "source.js.gruntfile"
+            }
+        ],
+        "color": "orange"
+    },
+    "gulpfile": {
+        "syntaxes": [
+            {
+                "base": "source.js",
+                "extensions": [
+                    "gulpfile.js",
+                    "gulpfile.babel.js",
+                    "gulpfile.coffee"
+                ],
+                "name": "JavaScript (Gulpfile)",
+                "scope": "source.js.gulpfile"
+            }
+        ],
+        "color": "pink"
+    },
+    "hack": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "hack"
+                ],
+                "name": "Plain Text (Hack)",
+                "scope": "source.hack, text.html.hack"
+            }
+        ]
+    },
+    "haml": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "haml"
+                ],
+                "name": "HAML (Rails)",
+                "scope": "text.haml"
+            }
+        ]
+    },
+    "harbour": {
+        "color": "sky",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ch",
+                    "hb",
+                    "idu",
+                    "ppo",
+                    "prg"
+                ],
+                "name": "Plain Text (Harbour)",
+                "scope": "source.harbour"
+            }
+        ]
+    },
+    "haxe": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "hx",
+                    "hxsl",
+                    "hscript"
+                ],
+                "name": "Plain Text (Haxe)",
+                "scope": "source.haxe"
+            }
+        ]
+    },
+    "http": {
+        "color": "purple",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "http"
+                ],
+                "name": "Plain Text (HTTP)",
+                "scope": "source.http, text.http-request-response"
+            }
+        ]
+    },
+    "image": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "bmp",
+                    "emf",
+                    "gif",
+                    "jp2",
+                    "jpeg",
+                    "jpg",
+                    "png",
+                    "pnm",
+                    "ppm",
+                    "tga",
+                    "tif",
+                    "tiff",
+                    "webp",
+                    "xbm",
+                    "xpm"
+                ],
+                "name": "Binary (Image)",
+                "scope": "binary.image"
+            }
+        ],
+        "color": "green"
+    },
+    "indesign": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "indd",
+                    "indl",
+                    "indt",
+                    "indb",
+                    "inx",
+                    "idml"
+                ],
+                "name": "Binary (Adobe InDesign)",
+                "scope": "binary.indesign"
+            }
+        ],
+        "color": "pink"
+    },
+    "jenkins": {
+        "syntaxes": [
+            {
+                "base": "source.groovy",
+                "extensions": [
+                    "Jenkinsfile",
+                    "jenkins"
+                ],
+                "name": "Groovy (Jenkins)",
+                "scope": "source.groovy.jenkins"
+            }
+        ],
+        "color": "cyan"
+    },
+    "js": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "js"
+                ],
+                "name": "JavaScript",
+                "scope": "source.js"
+            }
+        ]
+    },
+    "json": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "json"
+                ],
+                "name": "JSON",
+                "scope": "source.json"
+            }
+        ]
+    },
+    "jsp": {
+        "color": "purple",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "jsp"
+                ],
+                "name": "JSP",
+                "scope": "text.html.jsp"
+            }
+        ]
+    },
+    "jsx": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "jsx"
+                ],
+                "name": "JSX",
+                "scope": "source.jsx"
+            }
+        ]
+    },
+    "julia": {
+        "color": "purple",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "jl"
+                ],
+                "name": "Plain Text (Julia)",
+                "scope": "source.julia"
+            }
+        ]
+    },
+    "kotlin": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "kt",
+                    "kts"
+                ],
+                "name": "Plain Text (Kotlin)",
+                "scope": "source.Kotlin"
+            }
+        ]
+    },
+    "less": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "less",
+                    "css.less"
+                ],
+                "name": "Plain Text (LESS)",
+                "scope": "source.less"
+            }
+        ]
+    },
+    "license": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "copying",
+                    "copyright",
+                    "license",
+                    "copying.md",
+                    "copyright.md",
+                    "license.md"
+                ],
+                "name": "Plain Text (License)",
+                "scope": "text.plain.license"
+            }
+        ],
+        "color": "cyan"
+    },
+    "liquid": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "liquid"
+                ],
+                "name": "Plain Text (Liquid)",
+                "scope": "text.html.liquid"
+            }
+        ]
+    },
+    "lisp": {
+        "color": "red",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "lisp"
+                ],
+                "name": "Lisp",
+                "scope": "source.lisp"
+            }
+        ]
+    },
+    "lock": {
+        "syntaxes": [
+            {
+                "base": "source.yaml",
+                "extensions": [
+                    "Gemfile.lock",
+                    "Berksfile.lock"
+                ],
+                "name": "YAML (Lock)",
+                "scope": "source.yaml.lock"
+            }
+        ],
+        "color": "red"
+    },
+    "log": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "log"
+                ],
+                "name": "Plain Text (Log)",
+                "scope": "text.plain.log"
+            }
+        ],
+        "color": "graphite"
+    },
+    "lsl": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "lsl",
+                    "ossl"
+                ],
+                "name": "Plain Text (LSL)",
+                "scope": "source.lsl"
+            }
+        ]
+    },
+    "lua": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "lua"
+                ],
+                "name": "Lua",
+                "scope": "source.lua"
+            }
+        ]
+    },
+    "markdown": {
+        "color": "graphite",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "markdown"
+                ],
+                "name": "Markdown",
+                "scope": "text.html.markdown"
+            }
+        ]
+    },
+    "markdownx": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "mdx"
+                ],
+                "name": "Plain Text (Markdown JSX)",
+                "scope": "text.html.markdown.jsx"
+            }
+        ]
+    },
+    "matlab": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "matlab"
+                ],
+                "name": "MatLab",
+                "scope": "source.matlab"
+            }
+        ]
+    },
+    "maya": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "mel"
+                ],
+                "name": "Plain Text (MEL)",
+                "scope": "source.mel"
+            }
+        ]
+    },
+    "meson": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "meson.build",
+                    "meson_options.txt"
+                ],
+                "name": "Plain Text (Meson)",
+                "scope": "source.meson"
+            }
+        ]
+    },
+    "mint": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "mint"
+                ],
+                "name": "Plain Text (Mint)",
+                "scope": "source.mint"
+            }
+        ]
+    },
+    "mustache": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "hgn",
+                    "hjs",
+                    "mst",
+                    "mu",
+                    "mustache",
+                    "handlebars",
+                    "hbr",
+                    "hbrs",
+                    "hbs",
+                    "hdbs",
+                    "rac",
+                    "stache"
+                ],
+                "name": "Plain Text (Mustache)",
+                "scope": "txt.html.mustache, text.html.handlebars, text.html.hgn"
+            }
+        ]
+    },
+    "nginx": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "conf.erb",
+                    "nginx.conf",
+                    "mime.types",
+                    "fastcgi_params",
+                    "scgi_params",
+                    "uwsgi_params"
+                ],
+                "name": "Plain Text (nginx)",
+                "scope": "source.nginx"
+            }
+        ]
+    },
+    "nim": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "nim",
+                    "nims",
+                    "nimble",
+                    "nimf"
+                ],
+                "name": "Plain Text (Nim)",
+                "scope": "source.nim"
+            }
+        ]
+    },
+    "nodejs": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    ".node-version",
+                    ".nvmrc"
+                ],
+                "name": "Plain Text (NodeJS)",
+                "scope": "text.plain.nodejs"
+            }
+        ],
+        "color": "green"
+    },
+    "note": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "note"
+                ],
+                "name": "Plain Text (PlainNotes)",
+                "scope": "text.html.markdown.note"
+            }
+        ]
+    },
+    "npm": {
+        "syntaxes": [
+            {
+                "base": "source.shell",
+                "extensions": [
+                    ".npmignore",
+                    ".npmrc",
+                    "package-lock.json",
+                    "package.json"
+                ],
+                "name": "Shell Script (NPM)",
+                "scope": "source.shell.npm"
+            }
+        ],
+        "color": "red"
+    },
+    "nsis": {
+        "color": "purple",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "nsi",
+                    "nsh",
+                    "bnsi",
+                    "bnsh",
+                    "nsdincgit"
+                ],
+                "name": "Plain Text (NSIS)",
+                "scope": "source.nsis"
+            }
+        ]
+    },
+    "onenote": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "one"
+                ],
+                "name": "Binary (Microsoft OneNote)",
+                "scope": "binary.onenote"
+            }
+        ],
+        "color": "purple"
+    },
+    "pcb": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "pcb"
+                ],
+                "name": "Plain Text (Gerber fabrication files)",
+                "scope": "text.plain.pcb"
+            }
+        ],
+        "color": "cyan"
+    },
+    "pdf": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "pdf"
+                ],
+                "name": "Binary (PDF)",
+                "scope": "binary.pdf"
+            }
+        ],
+        "color": "red"
+    },
+    "perl": {
+        "color": "graphite",
+        "syntaxes": [
+            {
+                "extensions": [
+                    ".perl"
+                ],
+                "name": "Perl",
+                "scope": "source.perl"
+            }
+        ]
+    },
+    "php": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    ".php"
+                ],
+                "name": "PHP Source",
+                "scope": "embedding.php"
+            }
+        ]
+    },
+    "plist": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "base": "text.xml",
+                "extensions": [
+                    "plist",
+                    "hidden-tmLanguage",
+                    "hidden-tmTheme",
+                    "hidden-tmSnippet",
+                    "hidden-tmPreferences",
+                    "tmLanguage",
+                    "tmTheme",
+                    "tmSnippet",
+                    "tmPreferences"
+                ],
+                "name": "XML (PList)",
+                "scope": "text.plist, text.xml.plist"
+            }
+        ]
+    },
+    "postcss": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    "pcss",
+                    "postcss",
+                    ".postcssrc",
+                    "postcss.config.js"
+                ],
+                "name": "JSON (Post CSS)",
+                "scope": "source.json.postcss"
+            }
+        ],
+        "color": "red"
+    },
+    "powerpoint": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ppt",
+                    "pptx",
+                    "pps",
+                    "ppsx"
+                ],
+                "name": "Binary (Microsoft PowerPoint)",
+                "scope": "binary.powerpoint"
+            }
+        ],
+        "color": "orange"
+    },
+    "powershell": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ps1",
+                    "psm1",
+                    "psd1"
+                ],
+                "name": "Plain Text (PowerShell)",
+                "scope": "source.powershell"
+            }
+        ]
+    },
+    "premiere": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "prel",
+                    "prproj",
+                    "psq"
+                ],
+                "name": "Binary (Adobe Premiere Pro)",
+                "scope": "binary.premiere"
+            }
+        ],
+        "color": "purple"
+    },
+    "prisma": {
+        "color": "graphite",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "prisma"
+                ],
+                "name": "Plain Text (Prisma Scheme)",
+                "scope": "source.prisma"
+            }
+        ]
+    },
+    "procfile": {
+        "syntaxes": [
+            {
+                "base": "source.yaml",
+                "extensions": [
+                    "Procfile",
+                    ".buildpacks"
+                ],
+                "name": "YAML (Procfile)",
+                "scope": "source.yaml.procfile"
+            }
+        ],
+        "color": "purple"
+    },
+    "protobuf": {
+        "color": "graphite",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "proto",
+                    "protodevel"
+                ],
+                "name": "Plain Text (Protobuf)",
+                "scope": "source.proto"
+            }
+        ]
+    },
+    "psd": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "psb",
+                    "psd"
+                ],
+                "name": "Binary (Adobe Photoshop)",
+                "scope": "binary.ps"
+            }
+        ],
+        "color": "sky"
+    },
+    "pug": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    ".pug-lintrc",
+                    ".pug-lintrc.json",
+                    ".pug-lintrc.js",
+                    "jade",
+                    "pug"
+                ],
+                "name": "JSON (Puglint)",
+                "scope": "source.json.puglint"
+            }
+        ],
+        "color": "yellow"
+    },
+    "puppet": {
+        "color": "purple",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "pp",
+                    "epp"
+                ],
+                "name": "Plain Text (Puppet)",
+                "scope": "source.puppet"
+            }
+        ]
+    },
+    "purebasic": {
+        "color": "graphite",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "pb",
+                    "pbi"
+                ],
+                "name": "Plain Text (PureBasic)",
+                "scope": "source.purebasic"
+            }
+        ]
+    },
+    "python": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    ".python-version"
+                ],
+                "name": "Plain Text (Python)",
+                "scope": "text.plain.python"
+            }
+        ],
+        "color": "yellow"
+    },
+    "qt": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "qm",
+                    "qmlc",
+                    "qbs",
+                    "qbs.user",
+                    "qrc",
+                    "rcc",
+                    "qml",
+                    "qmlproject",
+                    "qmlproject.user"
+                ],
+                "name": "Binary (Qt)",
+                "scope": "binary.qt"
+            }
+        ],
+        "color": "green"
+    },
+    "r": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "r"
+                ],
+                "name": "R",
+                "scope": "source.r"
+            }
+        ]
+    },
+    "rails": {
+        "color": "red",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "rails"
+                ],
+                "name": "Ruby (Rails)",
+                "scope": "source.ruby.rails"
+            }
+        ]
+    },
+    "reach": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "rsh"
+                ],
+                "name": "Plain Text (Reach)",
+                "scope": "source.rsh"
+            }
+        ]
+    },
+    "ruby": {
+        "syntaxes": [
+            {
+                "base": "source.shell",
+                "extensions": [
+                    ".rvmrc",
+                    ".ruby-version",
+                    ".ruby-gemset",
+                    ".rspec"
+                ],
+                "name": "Shell Script (Ruby)",
+                "scope": "source.shell.ruby"
+            }
+        ],
+        "color": "red"
+    },
+    "sass": {
+        "color": "pink",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "sass"
+                ],
+                "name": "Plain Text (Sass)",
+                "scope": "source.sass"
+            }
+        ]
+    },
+    "scss": {
+        "color": "pink",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "scss"
+                ],
+                "name": "Plain Text (SCSS)",
+                "scope": "source.scss"
+            }
+        ]
+    },
+    "settings": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    ".htmlhintrc",
+                    ".jshintrc",
+                    ".jsbeautifyrc",
+                    ".prettierrc",
+                    ".releaserc",
+                    ".htmlhintignore",
+                    ".jshintignore",
+                    ".jsbeautifyignore",
+                    ".prettierignore",
+                    "fmt",
+                    "cfg",
+                    "ini",
+                    "inf",
+                    "lng",
+                    "pbk",
+                    "url",
+                    "conf",
+                    "config",
+                    "Doxyfile",
+                    "DoxyfileTemplate",
+                    "DoxyfileTemplate.cfg",
+                    "Doxyfile.version",
+                    "Doxyfile.syntaxes",
+                    "Doxyfile.rfc",
+                    "Doxyfile.base",
+                    "Doxyfile.inc",
+                    "Doxyfile.include",
+                    "buildozer.spec",
+                    ".env",
+                    ".env.dist",
+                    ".env.local",
+                    ".env.sample",
+                    ".env.example",
+                    ".env.test",
+                    ".env.test.local",
+                    ".env.testing",
+                    ".env.dev",
+                    ".env.development",
+                    ".env.development.local",
+                    ".env.prod",
+                    ".env.production",
+                    ".env.production.local",
+                    ".env.dusk.local",
+                    ".env.staging",
+                    ".env.default",
+                    ".env.defaults",
+                    ".envrc",
+                    ".flaskenv"
+                ],
+                "name": "JSON (Settings)",
+                "scope": "source.json.settings"
+            }
+        ],
+        "color": "graphite"
+    },
+    "shell": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "shell",
+                    "fish"
+                ],
+                "name": "Shell Script (Bash)",
+                "scope": "source.shell"
+            }
+        ]
+    },
+    "sketch": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "sketch"
+                ],
+                "name": "Plain Text (Sketch)",
+                "scope": "text.plain.sketch"
+            }
+        ],
+        "color": "purple"
+    },
+    "slim": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "slim",
+                    "skim"
+                ],
+                "name": "Plain Text (Ruby Slim)",
+                "scope": "text.slim"
+            }
+        ]
+    },
+    "sql": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "sql"
+                ],
+                "name": "SQL",
+                "scope": "source.sql"
+            }
+        ]
+    },
+    "stata": {
+        "color": "sky",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "do",
+                    "ado"
+                ],
+                "name": "Plain Text (Stata)",
+                "scope": "source.stata"
+            }
+        ]
+    },
+    "stylelint": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    ".stylelintrc",
+                    ".stylelintrc.json",
+                    ".stylelintrc.js",
+                    "stylelint.config.js",
+                    ".stylelintrc.yaml",
+                    ".stylelintrc.yml",
+                    ".stylelintignore"
+                ],
+                "name": "JSON (Stylelint)",
+                "scope": "source.json.stylelint"
+            }
+        ],
+        "color": "graphite"
+    },
+    "stylus": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "styl",
+                    "stylus"
+                ],
+                "name": "Plain Text (Stylus)",
+                "scope": "source.stylus"
+            }
+        ]
+    },
+    "sublime": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    "sublime-syntax",
+                    "sublime-snippet",
+                    ".no-sublime-package",
+                    ".sublime-project",
+                    "hidden-color-scheme",
+                    "hidden-theme",
+                    "sublime-build",
+                    "sublime-color-scheme",
+                    "sublime-commands",
+                    "sublime-completions",
+                    "sublime-keymap",
+                    "sublime-macro",
+                    "sublime-menu",
+                    "sublime-mousemap",
+                    "sublime-project",
+                    "sublime-settings",
+                    "sublime-theme",
+                    "sublime-workspace"
+                ],
+                "name": "JSON (Sublime)",
+                "scope": "source.json.sublime"
+            }
+        ],
+        "color": "orange"
+    },
+    "svelte": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "svlt",
+                    "svelte"
+                ],
+                "name": "Plain Text (Svelte)",
+                "scope": "text.html.svelte"
+            }
+        ]
+    },
+    "svg": {
+        "syntaxes": [
+            {
+                "base": "text.xml",
+                "extensions": [
+                    "svg"
+                ],
+                "name": "XML (SVG)",
+                "scope": "text.xml.svg"
+            }
+        ],
+        "color": "orange"
+    },
+    "swift": {
+        "color": "orange",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "swift"
+                ],
+                "name": "Plain Text (Swift)",
+                "scope": "source.swift"
+            }
+        ]
+    },
+    "taskfile": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    "Taskfile"
+                ],
+                "name": "YAML (Taskfile)",
+                "scope": "source.yaml.taskfile"
+            }
+        ],
+        "color": "cyan"
+    },
+    "tailwind": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "tailwind.css"
+                ],
+                "name": "Plain Text (Tailwind CSS)",
+                "scope": "source.css.tailwind"
+            }
+        ]
+    },
+    "tcl": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "tcl"
+                ],
+                "name": "Tcl",
+                "scope": "source.tcl"
+            }
+        ]
+    },
+    "tern": {
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    ".tern-project",
+                    ".tern-config"
+                ],
+                "name": "JSON (Tern JS)",
+                "scope": "source.json.tern"
+            }
+        ],
+        "color": "graphite"
+    },
+    "terraform": {
+        "color": "purple",
+        "syntaxes": [
+            {
+                "base": "source.json",
+                "extensions": [
+                    "tfstate",
+                    "tf",
+                    "tfvars",
+                    "hcl"
+                ],
+                "name": "JSON (Terraform)",
+                "scope": "source.json.terraform"
+            }
+        ]
+    },
+    "test_js": {
+        "syntaxes": [
+            {
+                "base": "source.js",
+                "extensions": [
+                    "spec.js",
+                    "test.js"
+                ],
+                "name": "UnitTest (JavaScript)",
+                "scope": "source.js.unittest"
+            }
+        ],
+        "color": "yellow"
+    },
+    "test_jsx": {
+        "syntaxes": [
+            {
+                "base": "source.jsx",
+                "extensions": [
+                    "spec.jsx",
+                    "test.jsx"
+                ],
+                "name": "UnitTest (JavaScript React)",
+                "scope": "source.jsx.unittest"
+            }
+        ],
+        "color": "blue"
+    },
+    "test_tsx": {
+        "syntaxes": [
+            {
+                "base": "source.tsx",
+                "extensions": [
+                    "spec.tsx",
+                    "test.tsx"
+                ],
+                "name": "UnitTest (TypeScript React)",
+                "scope": "source.tsx.unittest"
+            }
+        ],
+        "color": "sky"
+    },
+    "test_typescript": {
+        "syntaxes": [
+            {
+                "base": "source.ts",
+                "extensions": [
+                    "spec.ts",
+                    "test.ts"
+                ],
+                "name": "UnitTest (TypeScript)",
+                "scope": "source.ts.unittest"
+            }
+        ],
+        "color": "sky"
+    },
+    "text": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "AUTHORS",
+                    "NOTICE",
+                    "README",
+                    "RELEASE-NOTES"
+                ],
+                "name": "Plain Text (Readme)",
+                "scope": "text.plain.readme"
+            }
+        ],
+        "color": "yellow"
+    },
+    "todo": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "todo",
+                    "tasks",
+                    "todolist.txt"
+                ],
+                "name": "Plain Text (PlainTasks)",
+                "scope": "text.todo"
+            }
+        ]
+    },
+    "toml": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "toml",
+                    "tml",
+                    "Cargo.lock",
+                    "Gopkg.lock",
+                    "Pipfile"
+                ],
+                "name": "Plain Text (TOML)",
+                "scope": "source.toml"
+            }
+        ]
+    },
+    "tsx": {
+        "color": "sky",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "tsx"
+                ],
+                "name": "Plain Text (TypeScript React)",
+                "scope": "source.tsx"
+            }
+        ]
+    },
+    "twig": {
+        "color": "green",
+        "syntaxes": [
+            {
+                "base": "embedding.php",
+                "extensions": [
+                    "twig",
+                    "html.twig"
+                ],
+                "name": "PHP (Twig)",
+                "scope": "text.html.twig"
+            }
+        ]
+    },
+    "typescript": {
+        "color": "sky",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "ts"
+                ],
+                "name": "Plain Text (TypeScript)",
+                "scope": "source.ts"
+            }
+        ]
+    },
+    "unity3d": {
+        "color": "sky",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "unity3d",
+                    "cginc",
+                    "shader"
+                ],
+                "name": "Boo (Unity 3D)",
+                "scope": "source.boo.unity3d"
+            }
+        ]
+    },
+    "v": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "v",
+                    "vlang"
+                ],
+                "name": "Plain Text (V)",
+                "scope": "source.v"
+            }
+        ]
+    },
+    "vala": {
+        "color": "sky",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "gs",
+                    "vala",
+                    "vapi"
+                ],
+                "name": "Plain Text (Genie)",
+                "scope": "source.genie"
+            }
+        ]
+    },
+    "vhdl": {
+        "color": "blue",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "vhd",
+                    "vhdl",
+                    "vho",
+                    "vht",
+                    "sv",
+                    "v",
+                    "svh",
+                    "vh",
+                    "v",
+                    "V"
+                ],
+                "name": "Plain Text (VHDL)",
+                "scope": "source.vhdl"
+            }
+        ]
+    },
+    "video": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "avi",
+                    "mp4",
+                    "mov",
+                    "mkv",
+                    "h264",
+                    "webm",
+                    "wmv",
+                    "ogv",
+                    "ogg",
+                    "3gp",
+                    "m4v",
+                    "mpg",
+                    "mpeg",
+                    "3gpp",
+                    "ogm"
+                ],
+                "name": "Binary (Video)",
+                "scope": "binary.video"
+            }
+        ],
+        "color": "purple"
+    },
+    "vim": {
+        "syntaxes": [
+            {
+                "base": "source.viml",
+                "extensions": [
+                    ".vimrc",
+                    ".gvimrc",
+                    "_vimrc",
+                    "_gvimrc",
+                    "vim",
+                    ".vimrc"
+                ],
+                "name": "Vimrc (VimL)",
+                "scope": "source.viml.vimrc"
+            }
+        ],
+        "color": "green"
+    },
+    "visualstudio": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    ".coverage",
+                    "idl",
+                    "sln",
+                    "csproj",
+                    "fsproj",
+                    "shproj",
+                    "sqlproj",
+                    "vbproj",
+                    "vcxproj",
+                    "vsproj",
+                    "props",
+                    "resx",
+                    "ruleset",
+                    "settings",
+                    "targets",
+                    "wxl",
+                    "wxs",
+                    "xaml"
+                ],
+                "name": "Plain Text (Visual Studio)",
+                "scope": "text.plain.visualstudio"
+            }
+        ],
+        "color": "purple"
+    },
+    "vue": {
+        "color": "cyan",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "vue"
+                ],
+                "name": "Plain Text (Vue)",
+                "scope": "text.html.vue"
+            }
+        ]
+    },
+    "webpack": {
+        "syntaxes": [
+            {
+                "base": "source.js",
+                "extensions": [
+                    "webpack.config.js",
+                    "webpack.config.babel.js",
+                    "webpack.dev.js",
+                    "webpack.mix.js"
+                ],
+                "name": "JavaScript (Webpack)",
+                "scope": "source.js.webpack"
+            }
+        ],
+        "color": "blue"
+    },
+    "windows": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "lnk"
+                ],
+                "name": "Binary (Windows Shortcut)",
+                "scope": "binary.lnk"
+            }
+        ],
+        "color": "sky"
+    },
+    "word": {
+        "syntaxes": [
+            {
+                "extensions": [
+                    "doc",
+                    "docx",
+                    "docm",
+                    "docxml",
+                    "dotm",
+                    "dotx",
+                    "wri"
+                ],
+                "name": "Binary (Microsoft Word)",
+                "scope": "binary.word"
+            }
+        ],
+        "color": "blue"
+    },
+    "xsl": {
+        "color": "sky",
+        "syntaxes": [
+            {
+                "base": "text.xml",
+                "extensions": [
+                    "xsd",
+                    "xsl",
+                    "xslt"
+                ],
+                "name": "XSL",
+                "scope": "text.xml.xsl"
+            }
+        ]
+    },
+    "yaml": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "yaml"
+                ],
+                "name": "YAML",
+                "scope": "source.yaml"
+            }
+        ]
+    },
+    "yarn": {
+        "syntaxes": [
+            {
+                "base": "source.yaml",
+                "extensions": [
+                    "yarn.lock"
+                ],
+                "name": "YAML (Yarn)",
+                "scope": "source.yaml.yarn"
+            }
+        ],
+        "color": "blue"
+    },
+    "zig": {
+        "color": "yellow",
+        "syntaxes": [
+            {
+                "extensions": [
+                    "zig"
+                ],
+                "name": "Zig",
+                "scope": "source.zig"
+            }
+        ]
+    }
+}
